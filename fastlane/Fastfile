@@ -1,0 +1,23 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Register app"
+  lane :register_app do
+    produce(
+        username: "cinnamondevelopers@gmail.com",
+        app_identifier: "fastlane.test.app",
+        app_name: "FastlaneTestApp",
+        team_name: "Cinnamon doo"
+      )
+  end
+
+  lane :get_dev_certs do 
+    cert(
+        development: true
+      )
+
+    sigh(
+        development: true
+        )
+  end
+end

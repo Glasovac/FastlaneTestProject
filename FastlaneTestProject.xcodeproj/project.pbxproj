@@ -14,19 +14,12 @@
 		9F3584C3276B42E400978585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3584C2276B42E400978585 /* ContentView.swift */; };
 		9F3584C5276B42E600978585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3584C4276B42E600978585 /* Assets.xcassets */; };
 		9F3584C8276B42E600978585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3584C7276B42E600978585 /* Preview Assets.xcassets */; };
-		9F3584D2276B42E700978585 /* FastlaneTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3584D1276B42E700978585 /* FastlaneTestProjectTests.swift */; };
 		9F3584DC276B42E700978585 /* FastlaneTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3584DB276B42E700978585 /* FastlaneTestProjectUITests.swift */; };
 		9F3584DE276B42E700978585 /* FastlaneTestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3584DD276B42E700978585 /* FastlaneTestProjectUITestsLaunchTests.swift */; };
+		9FF3CE05276B7724003FCA66 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3CE04276B7724003FCA66 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9F3584CE276B42E700978585 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9F3584A7276B42E400978585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9F3584AF276B42E400978585;
-			remoteInfo = FastlaneTestProject;
-		};
 		9F3584D8276B42E700978585 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9F3584A7276B42E400978585 /* Project object */;
@@ -45,22 +38,14 @@
 		9F3584C2276B42E400978585 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F3584C4276B42E600978585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3584C7276B42E600978585 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9F3584CD276B42E700978585 /* FastlaneTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F3584D1276B42E700978585 /* FastlaneTestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlaneTestProjectTests.swift; sourceTree = "<group>"; };
 		9F3584D7276B42E700978585 /* FastlaneTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3584DB276B42E700978585 /* FastlaneTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlaneTestProjectUITests.swift; sourceTree = "<group>"; };
 		9F3584DD276B42E700978585 /* FastlaneTestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlaneTestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FF3CE04276B7724003FCA66 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9F3584AC276B42E400978585 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F3584CA276B42E700978585 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				9F3584B2276B42E400978585 /* FastlaneTestProject */,
-				9F3584D0276B42E700978585 /* FastlaneTestProjectTests */,
 				9F3584DA276B42E700978585 /* FastlaneTestProjectUITests */,
 				9F3584B1276B42E400978585 /* Products */,
 			);
@@ -91,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				9F3584B0276B42E400978585 /* FastlaneTestProject.app */,
-				9F3584CD276B42E700978585 /* FastlaneTestProjectTests.xctest */,
 				9F3584D7276B42E700978585 /* FastlaneTestProjectUITests.xctest */,
 			);
 			name = Products;
@@ -143,17 +126,10 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9F3584D0276B42E700978585 /* FastlaneTestProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				9F3584D1276B42E700978585 /* FastlaneTestProjectTests.swift */,
-			);
-			path = FastlaneTestProjectTests;
-			sourceTree = "<group>";
-		};
 		9F3584DA276B42E700978585 /* FastlaneTestProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
+				9FF3CE04276B7724003FCA66 /* SnapshotHelper.swift */,
 				9F3584DB276B42E700978585 /* FastlaneTestProjectUITests.swift */,
 				9F3584DD276B42E700978585 /* FastlaneTestProjectUITestsLaunchTests.swift */,
 			);
@@ -180,24 +156,6 @@
 			productName = FastlaneTestProject;
 			productReference = 9F3584B0276B42E400978585 /* FastlaneTestProject.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9F3584CC276B42E700978585 /* FastlaneTestProjectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9F3584E4276B42E700978585 /* Build configuration list for PBXNativeTarget "FastlaneTestProjectTests" */;
-			buildPhases = (
-				9F3584C9276B42E700978585 /* Sources */,
-				9F3584CA276B42E700978585 /* Frameworks */,
-				9F3584CB276B42E700978585 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9F3584CF276B42E700978585 /* PBXTargetDependency */,
-			);
-			name = FastlaneTestProjectTests;
-			productName = FastlaneTestProjectTests;
-			productReference = 9F3584CD276B42E700978585 /* FastlaneTestProjectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		9F3584D6276B42E700978585 /* FastlaneTestProjectUITests */ = {
 			isa = PBXNativeTarget;
@@ -230,10 +188,6 @@
 					9F3584AF276B42E400978585 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					9F3584CC276B42E700978585 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 9F3584AF276B42E400978585;
-					};
 					9F3584D6276B42E700978585 = {
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 9F3584AF276B42E400978585;
@@ -254,7 +208,6 @@
 			projectRoot = "";
 			targets = (
 				9F3584AF276B42E400978585 /* FastlaneTestProject */,
-				9F3584CC276B42E700978585 /* FastlaneTestProjectTests */,
 				9F3584D6276B42E700978585 /* FastlaneTestProjectUITests */,
 			);
 		};
@@ -267,13 +220,6 @@
 			files = (
 				9F3584C8276B42E600978585 /* Preview Assets.xcassets in Resources */,
 				9F3584C5276B42E600978585 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F3584CB276B42E700978585 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,31 +266,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F3584C9276B42E700978585 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F3584D2276B42E700978585 /* FastlaneTestProjectTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9F3584D3276B42E700978585 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9F3584DE276B42E700978585 /* FastlaneTestProjectUITestsLaunchTests.swift in Sources */,
 				9F3584DC276B42E700978585 /* FastlaneTestProjectUITests.swift in Sources */,
+				9FF3CE05276B7724003FCA66 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9F3584CF276B42E700978585 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9F3584AF276B42E400978585 /* FastlaneTestProject */;
-			targetProxy = 9F3584CE276B42E700978585 /* PBXContainerItemProxy */;
-		};
 		9F3584D9276B42E700978585 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9F3584AF276B42E400978585 /* FastlaneTestProject */;
@@ -390,6 +324,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -451,6 +386,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -477,6 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FastlaneTestProject/Preview Content\"";
+				DEVELOPMENT_TEAM = QQ2HF368NY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -506,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FastlaneTestProject/Preview Content\"";
+				DEVELOPMENT_TEAM = QQ2HF368NY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -524,54 +462,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9F3584E5276B42E700978585 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = setup.setup.FastlaneTestProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastlaneTestProject.app/FastlaneTestProject";
-			};
-			name = Debug;
-		};
-		9F3584E6276B42E700978585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = setup.setup.FastlaneTestProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastlaneTestProject.app/FastlaneTestProject";
 			};
 			name = Release;
 		};
@@ -636,15 +526,6 @@
 			buildConfigurations = (
 				9F3584E2276B42E700978585 /* Debug */,
 				9F3584E3276B42E700978585 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9F3584E4276B42E700978585 /* Build configuration list for PBXNativeTarget "FastlaneTestProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9F3584E5276B42E700978585 /* Debug */,
-				9F3584E6276B42E700978585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
