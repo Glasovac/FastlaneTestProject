@@ -38,9 +38,6 @@
 
 /* Begin PBXFileReference section */
 		9F3584B0276B42E400978585 /* FastlaneTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastlaneTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F3584B4276B42E400978585 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = ../../.swiftlint.yml; sourceTree = "<group>"; };
-		9F3584B5276B42E400978585 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
-		9F3584B6276B42E400978585 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../.gitignore; sourceTree = "<group>"; };
 		9F3584B8276B42E400978585 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		9F3584BB276B42E400978585 /* AlertContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContext.swift; sourceTree = "<group>"; };
 		9F3584BE276B42E400978585 /* ViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Ext.swift"; sourceTree = "<group>"; };
@@ -106,23 +103,12 @@
 				9F3584C0276B42E400978585 /* FastlaneTestProjectApp.swift */,
 				9F3584C2276B42E400978585 /* ContentView.swift */,
 				9F3584C4276B42E600978585 /* Assets.xcassets */,
-				9F3584B3276B42E400978585 /* Non-iOS Resources */,
 				9F3584B7276B42E400978585 /* Managers */,
 				9F3584BA276B42E400978585 /* Alert */,
 				9F3584BD276B42E400978585 /* Extensions */,
 				9F3584C6276B42E600978585 /* Preview Content */,
 			);
 			path = FastlaneTestProject;
-			sourceTree = "<group>";
-		};
-		9F3584B3276B42E400978585 /* Non-iOS Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9F3584B4276B42E400978585 /* .swiftlint.yml */,
-				9F3584B5276B42E400978585 /* README.md */,
-				9F3584B6276B42E400978585 /* .gitignore */,
-			);
-			path = "Non-iOS Resources";
 			sourceTree = "<group>";
 		};
 		9F3584B7276B42E400978585 /* Managers */ = {
