@@ -46,29 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F3584CC276B42E700978585"
-               BuildableName = "FastlaneTestProjectTests.xctest"
-               BlueprintName = "FastlaneTestProjectTests"
-               ReferencedContainer = "container:FastlaneTestProject.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "9F3584D6276B42E700978585"
                BuildableName = "FastlaneTestProjectUITests.xctest"
                BlueprintName = "FastlaneTestProjectUITests"
-               ReferencedContainer = "container:FastlaneTestProject.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9FF3CE09276B7B65003FCA66"
-               BuildableName = "FastlaneTestProjectUITests_new.xctest"
-               BlueprintName = "FastlaneTestProjectUITests_new"
                ReferencedContainer = "container:FastlaneTestProject.xcodeproj">
             </BuildableReference>
          </TestableReference>

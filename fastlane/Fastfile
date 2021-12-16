@@ -20,4 +20,16 @@ platform :ios do
         development: true
         )
   end
+
+  lane :tests do 
+    run_tests(
+      scheme: "FastlaneTestProject_Snapshots"
+      )
+  end
+
+  lane :beta do
+    # sync_code_signing(type: "appstore")
+    build_app(scheme: "FastlaneTestProject")
+    upload_to_testflight
+  end
 end

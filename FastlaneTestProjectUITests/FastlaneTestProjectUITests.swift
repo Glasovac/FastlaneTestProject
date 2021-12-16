@@ -17,7 +17,7 @@ class FastlaneTestProjectUITests: XCTestCase {
 
     func test_screenshot_ui() {
         let app = XCUIApplication()
-        
+
         let helloWorldStaticText = app.staticTexts["Hello, world!"]
 
         snapshot("Screenshot1")
