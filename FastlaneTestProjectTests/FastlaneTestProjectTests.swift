@@ -18,7 +18,6 @@ class FastlaneTestProjectTests: XCTestCase {
     override func setUp() {
         super.setUp()
 
-        
         self.account = Account()
     }
 
