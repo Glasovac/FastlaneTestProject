@@ -10,7 +10,6 @@ import SwiftUI
 @main
 struct FastlaneTestProjectApp: App {
     var body: some Scene {
-        
         WindowGroup {
             TestView()
         }
