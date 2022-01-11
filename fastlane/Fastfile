@@ -21,9 +21,15 @@ platform :ios do
         )
   end
 
-  lane :tests do 
+  lane :snapshots do 
     run_tests(
       scheme: "FastlaneTestProject_Snapshots"
+      )
+  end
+
+    lane :tests do 
+    run_tests(
+      scheme: "FastlaneTestProject"
       )
   end
 

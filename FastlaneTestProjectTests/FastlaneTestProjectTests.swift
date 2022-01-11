@@ -17,7 +17,6 @@ class FastlaneTestProjectTests: XCTestCase {
     // this funtionc is called before each test
     override func setUp() {
         super.setUp()
-
         
         self.account = Account()
     }

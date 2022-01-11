@@ -31,6 +31,14 @@ Register app
 
 
 
+### ios snapshots
+
+```sh
+[bundle exec] fastlane ios snapshots
+```
+
+
+
 ### ios tests
 
 ```sh
