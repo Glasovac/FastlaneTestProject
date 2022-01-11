@@ -1,0 +1,6 @@
+osx_image: xcode13.0
+language: swift
+os: osx
+xcode_project: FastlaneTestProject.xcodeproj
+xcode_scheme: FastlaneTestProject
+xcode_destination: platform=iOS Simulator,OS=15.0,name=iPhone 13
